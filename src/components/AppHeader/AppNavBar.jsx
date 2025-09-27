@@ -8,29 +8,21 @@ export default function AppNavBar({ nav_menu }) {
     return (
         <>
             <nav className="navbar navbar-expand-lg app-bg-primary px-3 container-fluid">
-                <div className="col-1">
+                <div className="col-5 col-md-2">
                     <img className="navbar-brand" src={nav_logo} />
                 </div>
-
-                <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="col-3">
+                <div className="col-3 col-md-6">
 
                     <AppSearchBar
                         father="navbar"
                     />
                 </div>
-                <div className="collapse navbar-collapse col-8 justify-content-end" id="navbarNav">
-                    <ul className="navbar-nav px-1">
+                <div className="navbar col-4 col-md-4 col-lg-8 justify-content-end" id="navbarNav">
                         {
                             nav_menu.map(item =>
-                                <li className="nav-item " key={item.id}>
-                                    <a className="nav-link text-light text-nowrap" aria-current="page" href={`${item.link}`}>{item.text}</a>
-                                </li>
+                                    <a className="nav-link text-light text-nowrap px-2" aria-current="page" href={`${item.link}` }key={item.id}>{item.text}</a>
                             )
                         }
-                    </ul>
 
                 </div>
             </nav>
