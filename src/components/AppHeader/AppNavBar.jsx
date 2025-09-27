@@ -7,9 +7,8 @@ import AppSearchBar from "./AppSearchBar.jsx"
 export default function AppNavBar({nav_menu}) {
     return (
         <>
-            <nav className="navbar navbar-expand-lg app-bg-primary ps-3">
-                <div className="container-fluid">
-                    <img className="navbar-brand" src={nav_logo} width="150" />
+            <nav className="navbar navbar-expand-lg app-bg-primary ps-3 container-fluid">
+                    <img className="navbar-brand" src={nav_logo}  />
                     
                     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -27,7 +26,7 @@ export default function AppNavBar({nav_menu}) {
                                 )
                             }
                         </ul>
-                    </div>
+                    
                 </div>
             </nav>
         </>
