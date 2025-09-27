@@ -10,36 +10,36 @@ const albums = [
     },
     {
         id:1,
-        title: "PetroDragonic Apocalypse;",
+        title: "PetroDragonic Apocalypse; or, Dawn of Eternal Night: An Annihilation of Planet Earth and the Beginning of Merciless Damnation",
         thumb: "/album-thumb/a2805471381_2.jpg",
-        author: "King Gizzard & The Lizar",
+        author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
-        tracks: 2,
-        minutes: 18
+        tracks: 7,
+        minutes: 48
     },
     {
         id:2,
         title: "Nonagon Infinity",
         thumb: "/album-thumb/a1566708845_2.jpg",
-        author: "King Gizzard & The Lizar",
+        author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
-        tracks: 2,
+        tracks: 9,
         minutes: 18
     },
     {
         id:3,
         title: "Phantom Island",
          thumb: "/album-thumb/a0206419347_2.jpg",
-        author: "King Gizzard & The Lizar",
+        author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
-        tracks: 2,
+        tracks: 16,
         minutes: 18
     },
     {
         id:4,
         title: "Omnium Gatherum",
         thumb: "/album-thumb/a2638998972_2.jpg",
-        author: "King Gizzard & The Lizar",
+        author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
         tracks: 2,
         minutes: 18
@@ -50,6 +50,24 @@ const albums = [
         thumb: "/album-thumb/",
         author: "Castle Rat",
         genre: "rock",
+        tracks: 2,
+        minutes: 18
+    },
+    {
+        id:6,
+        title: "Amen",
+        thumb: "/album-thumb/a1755448576_2.jpg",
+        author: "Igorrr",
+        genre: "alternative",
+        tracks: 2,
+        minutes: 18
+    },
+    {
+        id:7,
+        title: "The Poppies Blor For No",
+        thumb: "/album-thumb/a3791450854_2.jpg",
+        author: "Panopticon",
+        genre: "metal",
         tracks: 2,
         minutes: 18
     }
