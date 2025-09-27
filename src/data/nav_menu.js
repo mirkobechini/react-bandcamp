@@ -1,11 +1,13 @@
 const nav_menu = [
     {
         id: 0,
-        text:'Sign up'
+        text:'Sign up',
+        link: "#"
     },
     {
         id: 1,
-        text:'Log in'
+        text:'Log in',
+        link: "#"
     }
 ]
 
