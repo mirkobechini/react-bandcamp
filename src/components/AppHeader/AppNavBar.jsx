@@ -8,10 +8,10 @@ export default function AppNavBar({ nav_menu }) {
     return (
         <>
             <nav className="navbar navbar-expand-lg app-bg-primary px-3 container-fluid">
-                <div className="col-5 col-md-2">
+                <div className="col-5 col-md-2 col-lg-1">
                     <img className="navbar-brand" src={nav_logo} />
                 </div>
-                <div className="col-3 col-md-6">
+                <div className="col-3 col-md-6 col-lg-3">
 
                     <AppSearchBar
                         father="navbar"
