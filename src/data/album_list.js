@@ -6,7 +6,8 @@ const albums = [
         author: "Elder",
         genre: "rock",
         tracks: 2,
-        minutes: 18
+        minutes: 18,
+        is_active: true
     },
     {
         id:1,
@@ -15,7 +16,8 @@ const albums = [
         author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
         tracks: 7,
-        minutes: 48
+        minutes: 48,
+        is_active: false
     },
     {
         id:2,
@@ -24,7 +26,8 @@ const albums = [
         author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
         tracks: 9,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     },
     {
         id:3,
@@ -33,7 +36,8 @@ const albums = [
         author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
         tracks: 16,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     },
     {
         id:4,
@@ -42,7 +46,8 @@ const albums = [
         author: "King Gizzard & The Lizard Wizard",
         genre: "alternative",
         tracks: 2,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     },
     {
         id:5,
@@ -51,7 +56,8 @@ const albums = [
         author: "Castle Rat",
         genre: "rock",
         tracks: 2,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     },
     {
         id:6,
@@ -60,7 +66,8 @@ const albums = [
         author: "Igorrr",
         genre: "alternative",
         tracks: 2,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     },
     {
         id:7,
@@ -69,7 +76,8 @@ const albums = [
         author: "Panopticon",
         genre: "metal",
         tracks: 2,
-        minutes: 18
+        minutes: 18,
+        is_active: false
     }
 ]
 
