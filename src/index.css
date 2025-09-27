@@ -37,7 +37,7 @@
 
 /*#region Main*/
 #mainContainer {
-  max-height: 650px;
+  min-height: 950px;
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: none;
