@@ -49,6 +49,13 @@
     overflow: hidden;
 }
 
+.app-sizer-round {
+    width: 60px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+
 .app-border-tertiary{
     border-color: var(--rdc-tertiary);
 }
