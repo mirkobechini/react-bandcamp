@@ -3,6 +3,7 @@
   --rdc-primary: #222222;
   --rdc-secondary: #2b2b2b;
   --rdc-tertiary: #464646;
+  --rdc-text-subtitle: #9c9a85;
   
 }
 /*#endregion Palette*/
@@ -14,7 +15,18 @@
 .app-bg-secondary {
   background-color: var(--rdc-secondary);
 }
+
 .app-bg-tertiary {
   background-color: var(--rdc-tertiary);
 }
+.app-text-subtitle input::placeholder {
+  color: var(--rdc-text-subtitle);
+}
 /*#endregion Common*/
+
+/*#region Header*/
+.app-searchbar-item {
+  background-color: var(--rdc-tertiary);
+  color: var(--rdc-text-subtitle);
+}
+/*#endregion Header*/
