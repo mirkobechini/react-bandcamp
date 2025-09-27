@@ -1,0 +1,20 @@
+/*#region Palette*/
+:root {
+  --rdc-primary: #222222;
+  --rdc-secondary: #2b2b2b;
+  --rdc-tertiary: #464646;
+  
+}
+/*#endregion Palette*/
+
+/*#region Common*/
+.app-bg-primary {
+  background-color: var(--rdc-primary);
+}
+.app-bg-secondary {
+  background-color: var(--rdc-secondary);
+}
+.app-bg-tertiary {
+  background-color: var(--rdc-tertiary);
+}
+/*#endregion Common*/
