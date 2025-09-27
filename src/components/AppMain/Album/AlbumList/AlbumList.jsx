@@ -1,9 +1,18 @@
-export default function AlbumList(){
+//import components
+import AlbumCard from "./AlbumCard"
+
+
+export default function AlbumList({album_list}){
     return(
         <>
-        
-        <div className="col">
+        {album_list.map(album =>
+
+        <div className="col-3" key={album.id}>
+            <AlbumCard
+                album = {album}
+            />
         </div>
+        )}
         </>
     )
 }
