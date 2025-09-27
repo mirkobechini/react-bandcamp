@@ -36,14 +36,14 @@
 /*#endregion Header*/
 
 /*#region Main*/
-#mainContainer {
+#app-mainContainer {
   min-height: 950px;
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: none;
 }
 
-.sizer {
+.app-sizer {
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
@@ -51,5 +51,13 @@
 
 .app-border-tertiary{
     border-color: var(--rdc-tertiary);
+}
+
+.app-play-icon{
+  font-size: 4.3rem;
+}
+
+.app-fs-x{
+  font-size: 15px
 }
 /*#endregion Main*/
