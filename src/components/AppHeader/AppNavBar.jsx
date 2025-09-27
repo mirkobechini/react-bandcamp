@@ -7,7 +7,7 @@ import AppSearchBar from "./AppSearchBar.jsx"
 export default function AppNavBar({nav_menu}) {
     return (
         <>
-            <nav className="navbar navbar-expand-lg app-bg-primary">
+            <nav className="navbar navbar-expand-lg app-bg-primary ps-3">
                 <div className="container-fluid">
                     <img className="navbar-brand" src={nav_logo} width="150" />
                     
@@ -17,12 +17,12 @@ export default function AppNavBar({nav_menu}) {
                     <AppSearchBar
                         father = "navbar"
                     />
-                    <div className="collapse navbar-collapse col-1" id="navbarNav">
-                        <ul className="navbar-nav">
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav px-1">
                             {
                                 nav_menu.map(item =>
-                                    <li className="nav-item px-1" key={item.id}>
-                                        <a className="nav-link text-light" aria-current="page" href={`${item.link}`}>{item.text}</a>
+                                    <li className="nav-item " key={item.id}>
+                                        <a className="nav-link text-light text-nowrap" aria-current="page" href={`${item.link}`}>{item.text}</a>
                                     </li>
                                 )
                             }

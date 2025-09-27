@@ -6,7 +6,7 @@ export default function AppHeader({nav_menu}) {
     return (
         <>
            <AppNavBar nav_menu={nav_menu}/>
-           <div className="app-bg-secondary" >
+           <div className="app-bg-secondary ps-3" >
             <AppSearchBar
                 father = "header"
             />
