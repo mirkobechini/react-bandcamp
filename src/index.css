@@ -22,6 +22,10 @@
 .app-text-subtitle input::placeholder {
   color: var(--rdc-text-subtitle);
 }
+
+.app-text-subtitle {
+  color: var(--rdc-text-subtitle);
+}
 /*#endregion Common*/
 
 /*#region Header*/
@@ -33,6 +37,19 @@
 
 /*#region Main*/
 #mainContainer {
-  height: 650px;
+  max-height: 650px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.sizer {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+.app-border-tertiary{
+    border-color: var(--rdc-tertiary);
 }
 /*#endregion Main*/
