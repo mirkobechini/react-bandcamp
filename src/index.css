@@ -30,3 +30,9 @@
   color: var(--rdc-text-subtitle);
 }
 /*#endregion Header*/
+
+/*#region Main*/
+#mainContainer {
+  height: 650px;
+}
+/*#endregion Main*/
