@@ -3,7 +3,7 @@ export default function AlbumCard({ album }) {
     return (
         <>
 
-            <div className=" app-bg-primary pb-3" style={{ width: "195px" }}>
+            <div className=" app-bg-primary pb-3" style={{ width: "100%" }}>
                 <div className="app-sizer border app-border-tertiary">
                     <img src={album.thumb} className="card-img-top" alt={`Album_${album.title}_thumb`} />
                 </div>
