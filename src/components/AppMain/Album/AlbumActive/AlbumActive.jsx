@@ -1,5 +1,3 @@
-//image
-import card_image from "./../../../../assets/img/a2734007037_5.jpg"
 
 export default function AlbumActive({ album_list }) {
 
@@ -14,7 +12,7 @@ export default function AlbumActive({ album_list }) {
         <>
 
             <div className="app-sizer border app-border-tertiary">
-                <img src={card_image} className="img-fluid" alt={`Album ${album_active.title} thumb`} width={"100%"} />
+                <img src={album_active.thumb} className="img-fluid" alt={`Album ${album_active.title} thumb`} width={"100%"} />
             </div>
             {/*card play*/}
             <div className="card mb-2 app-bg-primary text-light border-0" style={{ maxwidth: "100%" }}>
@@ -41,7 +39,7 @@ export default function AlbumActive({ album_list }) {
             <div className="card mb-2 app-bg-primary text-light border-0" style={{ maxwidth: "100%" }}>
                 <div className="d-flex align-items-center gap-3 pt-3">
                     <div className="app-sizer rounded-circle" style={{width:"50px" }} >
-                        <img src={card_image} className="img-fluid" alt={`Album ${album_active.title} thumb`} width={"100%"} />
+                        <img src={album_active.thumb} className="img-fluid" alt={`Album ${album_active.title} thumb`} width={"100%"} />
                     </div>
                     <div className="card-body ps-0 app-fs-x">
                         <span className="card-text d-block">{album_active.author}</span>

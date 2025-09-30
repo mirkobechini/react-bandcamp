@@ -7,7 +7,7 @@ const albums = [
         genre: "rock",
         tracks: 2,
         minutes: 18,
-        is_active: true
+        is_active: false
     },
     {
         id:1,
@@ -37,7 +37,7 @@ const albums = [
         genre: "alternative",
         tracks: 16,
         minutes: 18,
-        is_active: false
+        is_active: true
     },
     {
         id:4,
